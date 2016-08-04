@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'WeChatSDKV1_7'
-  s.version      = '1.7.1'
+  s.version      = '1.7.2'
   s.summary      = 'WeChatSDK Pod v1.7 for Cocoapods convenience'
   s.description  = <<-DESC
                    This pod is used who want to use WeChatSDK v1.7 with podfile.

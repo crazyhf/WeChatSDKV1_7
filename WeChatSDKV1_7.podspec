@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'WeChatSDKV1_7'
-  s.version      = '1.7.2'
+  s.version      = '1.7.5'
   s.summary      = 'WeChatSDK Pod v1.7 for Cocoapods convenience'
   s.description  = <<-DESC
                    This pod is used who want to use WeChatSDK v1.7 with podfile.
@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/crazyhf/WeChatSDKV1_7.git', :tag => 'v#{spec.version}' }
 
-  s.source_files   = "OpenSDK1.7/**/*.h"
-  s.preserve_paths = "OpenSDK1.7/libWeChatSDK.a", "OpenSDK1.7/README.txt"
+  s.source_files   = "OpenSDK1.7.5/**/*.h"
+  s.preserve_paths = "OpenSDK1.7.5/libWeChatSDK.a", "OpenSDK1.7.5/README.txt"
   
-  s.vendored_libraries = 'OpenSDK1.7/libWeChatSDK.a'
-  s.public_header_files = "OpenSDK1.7/**/*.h"
+  s.vendored_libraries = 'OpenSDK1.7.5/libWeChatSDK.a'
+  s.public_header_files = "OpenSDK1.7.5/**/*.h"
   
   the_frameworks =  [
                       '"SystemConfiguration"',
